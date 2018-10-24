@@ -1,0 +1,53 @@
+.jumbo1 {
+    margin-bottom: 0px;
+    background-image: url(jumbo-bg.jpg);
+    background-position: 0% 43%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    
+    padding-top: 15%;
+    padding-bottom: 15%;
+    height: 100vh;
+}
+
+.jumbo2 {
+	background-color: #232323;
+	color: #fbfbfb;
+	padding: 10%;
+
+
+	
+}
+
+.btn{
+	    padding: 12px;
+    width: 150px;
+}
+
+.search{
+	float: right;
+	width: 50px;
+}
+
+.footer{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.navbar{
+	background-color: #FBFBFB;
+	box-shadow: 0px -26px 96px #000;
+
+}
+
+.form-inline{
+	position: absolute;
+	right: 5px;
+
+}
+
+footer
+{
+	margin-top: 10px;
+}
