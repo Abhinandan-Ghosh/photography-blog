@@ -59,3 +59,22 @@ footer
 .page-footer{
 	background-color: #232323;
 }
+
+
+
+
+
+
+
+.posts{
+	
+	display: inline-block;
+	width: 35%;
+
+	height: fit-content;
+}
+
+.content{
+	margin-top: 32px;
+}
+

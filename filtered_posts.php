@@ -1,38 +1,27 @@
-<!-- The first include should be config.php -->
-<?php require_once('config.php') ?>
+<?php include('config.php'); ?>
+<?php include('includes/functions.php'); ?>
+<?php include('includes/head_section.php'); ?>
+<?php 
+	// Get posts under a particular topic
+	if (isset($_GET['topic'])) {
+		$topic_id = $_GET['topic'];
+		$posts = getPublishedPostsByTopic($topic_id);
+	}
+?>
+	<title>LifeBlog | Home </title>
+</head>
+<body>
 
-<?php require_once( ROOT_PATH . '/includes/functions.php') ?>
-
-<!-- Retrieve all posts from database  -->
-<?php $posts = getPublishedPosts(); ?>
-
-<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
-
-    <title>Blog</title>
-  </head>
-  <body>
- 
- <!-- navbar -->
-<?php include( ROOT_PATH . '/includes/navbar.php') ?>
-
-    <div class="jumbotron jumbotron-fluid jumbo1">
-  <div class="container">
-    <h1 class="display-4 ">THE BLOOGGGGG</h1>
-    <p class="lead">Info about the blog</p>
-  </div>
-</div>
-
-<div class="jumbotron jumbotron-fluid jumbo2 text-center ">
-  
-    <h1 class="display-4">Want to stay updated?</h1>
-    <p class="lead">Subscibe to our newsletter and get emails</p>
-    <form action="subscribe.php">
-    <button type="submit" class="btn btn-light">Subscribe</button>
-    </form>
- 
-</div>
-
-<?php
+<!-- Navbar -->
+	<?php include( ROOT_PATH . '/includes/navbar.php'); ?>
+<!-- // Navbar -->
+<!-- content -->
+<div class="container content">
+	<h2 class="content-title">
+		Articles on <u><?php echo getTopicNameById($topic_id); ?></u>
+	</h2>
+	<hr>
+	<?php
 //Columns must be a factor of 12 (1,2,3,4,6,12)
 $numOfCols = 3;
 $rowCount = 0;
@@ -48,7 +37,7 @@ $bootstrapColWidth = 12 / $numOfCols;
 
 
 <?php foreach ($posts as $post): ?>
-      <div class="col-md-4 card posts">
+      <div class="col card posts">
   <img class="card-img-top" src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" alt="Card image cap">
   <?php if (isset($post['topic']['name'])): ?>
       <a 
@@ -78,11 +67,11 @@ $bootstrapColWidth = 12 / $numOfCols;
    
     <!-- // Page content -->
   </div>
-  
+</div>
 
 
-<!-- footer -->
+  <!-- footer -->
 <?php include( ROOT_PATH . '/includes/footer.php') ?>
-
+</body>
     
 </html>
