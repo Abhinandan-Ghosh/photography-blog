@@ -69,12 +69,45 @@ footer
 .posts{
 	
 	display: inline-block;
-	width: 35%;
+	box-shadow: 8px 4px 18px #888888;
+	width: 30%;
 
-	height: fit-content;
+	
 }
 
 .content{
 	margin-top: 32px;
 }
 
+/*.post-body{
+	margin-top:15px;
+	margin-bottom: 15px;
+}*/
+
+
+
+/*.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	*/
+
+
+/*.gal img, .gal div { width: 100%; padding: 7px 0; display: inline-block;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}*/

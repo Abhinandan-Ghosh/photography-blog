@@ -16,14 +16,14 @@ function getPublishedPosts() {
 		$post['topic'] = getPostTopic($post['id']); 
 		array_push($final_posts, $post);
 	}
-	return $final_posts;;
+	return $final_posts;
 }
 
 
-/* * * * * * * * * * * * * * *
-* Receives a post id and
-* Returns topic of the post
-* * * * * * * * * * * * * * */
+
+// Receives a post id and
+// Returns topic of the post
+
 function getPostTopic($post_id){
 	global $conn;
 	$sql = "SELECT * FROM topics WHERE id=
@@ -33,9 +33,9 @@ function getPostTopic($post_id){
 	return $topic;
 }
 
-/* * * * * * * * * * * * * * * *
-* Returns all posts under a topic
-* * * * * * * * * * * * * * * * */
+
+ //Returns all posts under a topic
+
 function getPublishedPostsByTopic($topic_id) {
 	global $conn;
 	$sql = "SELECT * FROM posts ps 
@@ -54,9 +54,9 @@ function getPublishedPostsByTopic($topic_id) {
 	}
 	return $final_posts;
 }
-/* * * * * * * * * * * * * * * *
-* Returns topic name by topic id
-* * * * * * * * * * * * * * * * */
+
+//Returns topic name by topic id
+
 function getTopicNameById($id)
 {
 	global $conn;

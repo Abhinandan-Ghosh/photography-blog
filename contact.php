@@ -9,3 +9,4 @@
  
  <!-- navbar -->
 <?php include( ROOT_PATH . '/includes/navbar.php') ?>
+ <?php include( ROOT_PATH . '/includes/footer.php') ?>
