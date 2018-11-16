@@ -60,59 +60,37 @@ footer
 	background-color: #232323;
 }
 
-
-
-
-
-
-
 .posts{
 	
 	display: inline-block;
 	box-shadow: 8px 4px 18px #888888;
 	width: 30%;
-
-	
 }
 
 .content{
 	margin-top: 32px;
 }
 
-/*.post-body{
-	margin-top:15px;
-	margin-bottom: 15px;
-}*/
 
-
-
-/*.gal {
-	
-	
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	  
-	
-	}	*/
-
-
-/*.gal img, .gal div { width: 100%; padding: 7px 0; display: inline-block;}
-@media (max-width: 500px) {
-		
-		.gal {
-	
-	
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	  
-	
-	}
-		
-	}*/
-
-/*to center modal titles*/
 .pad-left{
     padding-left: 32px;
 }
+
+
+/*single post*/
+.full-post-div{
+	margin-right: 20px;
+	text-align: justify;	
+}
+
+.topic-side-bar{
+	height: fit-content;
+}
+
+
+
+
+
+
+
+

@@ -10,4 +10,3 @@
 
     <link rel="stylesheet" type="text/css" href="static/style.css">
 
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>

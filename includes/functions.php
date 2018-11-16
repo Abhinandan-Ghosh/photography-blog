@@ -66,5 +66,35 @@ function getTopicNameById($id)
 	return $topic['name'];
 }
 
+/* * * * * * * * * * * * * * *
+* Returns a single post
+* * * * * * * * * * * * * * */
+
+function getPost($slug){
+	global $conn;
+	// Get single post slug
+	$post_slug = $_GET['post-slug'];
+	$sql = "SELECT * FROM posts WHERE slug='$post_slug'";
+	$result = mysqli_query($conn, $sql);
+
+	// fetch query results as associative array.
+	$post = mysqli_fetch_assoc($result);
+	if ($post) {
+		// get the topic to which this post belongs
+		$post['topic'] = getPostTopic($post['id']);
+	}
+	return $post;
+}
+/* * * * * * * * * * * *
+*  Returns all topics
+* * * * * * * * * * * * */
+function getAllTopics()
+{
+	global $conn;
+	$sql = "SELECT * FROM topics";
+	$result = mysqli_query($conn, $sql);
+	$topics = mysqli_fetch_all($result, MYSQLI_ASSOC);
+	return $topics;
+}
 // more functions to come here ...
 ?>
