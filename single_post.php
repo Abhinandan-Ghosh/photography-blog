@@ -22,7 +22,7 @@
 			<!-- full post div -->
 			<div class="full-post-div">
 				<h1 class="post-title display-4 font-weight-bold"><?php echo $post['title']; ?></h1>
-				<img class='img-fluid single-post-img' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block">
+				<a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox ><img class='img-fluid single-post-img' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block"></a>
 				<div class="post-body-div">
 					<?php echo html_entity_decode($post['body']); ?>
 				</div>
