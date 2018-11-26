@@ -5,9 +5,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link <?php if($page == 'home') echo 'active'; ?>" href="index.php">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="" data-toggle="modal" data-target="#modalContactForm">Contact</a>
-      <a class="nav-item nav-link" href="about.php">About</a>
+      <a class="nav-item nav-link <?php if($page == 'about') echo 'active'; ?>" href="about.php">About</a>
       
       <!-- <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

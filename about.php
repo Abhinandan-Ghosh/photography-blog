@@ -1,24 +1,32 @@
 <!-- The first include should be config.php -->
-<?php require_once('config.php') ?>
+<?php 
+    require_once('config.php');
+    require_once( ROOT_PATH . '/includes/functions.php');
+//Retrieve all posts from database 
+    $posts = getPublishedPosts();
 
-<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
+    $page = 'about';
+      $title = 'Blog - About';
 
-    <title>Blog</title>
-  </head>
+    require_once( ROOT_PATH . '/includes/head_section.php');
+?>
+
   <body>
  
  <!-- navbar -->
 <?php include( ROOT_PATH . '/includes/navbar.php') ?>
 
-<div class="intro container">
+<div class="intro container-fluid">
 <center>
 <h1 class="my-4">
     About Us
     <br>
     <small>It's Nice to Meet You!</small>
 </h1>
-</center>        
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
+</center>  
+</div> 
+<div class="container-fluid abouttext">     
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
 </div>
       
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -1,11 +1,16 @@
 <!-- The first include should be config.php -->
-<?php require_once('config.php') ?>
-<?php require_once( ROOT_PATH . '/includes/functions.php') ?>
-<!-- Retrieve all posts from database  -->
-<?php $posts = getPublishedPosts(); ?>
-<?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
-<title>Blog</title>
-</head>
+<?php 
+    require_once('config.php');
+    require_once( ROOT_PATH . '/includes/functions.php');
+//Retrieve all posts from database 
+    $posts = getPublishedPosts();
+
+    $page = 'home';
+      $title = 'Blog - Home';
+
+    require_once( ROOT_PATH . '/includes/head_section.php');
+?>
+
 <body>
 <!-- navbar -->
 <?php include( ROOT_PATH . '/includes/navbar.php') ?>
@@ -85,3 +90,4 @@
     </div>
   </div>
 </div>
+

@@ -49,7 +49,7 @@
 
 footer
 {
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 }
 
 .row{
@@ -87,11 +87,55 @@ footer
 	height: fit-content;
 }
 
-social-links {
-    font-size: 20px;!important
+/*.social-links {
+    font-size: 20px !important;
+    padding: 20px;
+
+}*/
+
+.fa{
+	color: #292929;
+	padding: 15px;
+	font-size: 30px !important;
+	text-decoration: none;
+	margin-bottom: 20px;
 }
 
+.fa:hover{
+	text-decoration: none;
+	color: #292929;
 
+}
 
+.carousel{
+	
+	padding: 50px;
+}
 
+.intro{
+	padding: 50px;
+	
+}
 
+.abouttext{
+	padding: 8%;
+    background: #292929;
+    color: white;
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators li {
+    background-color: lightgrey;
+    /*box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    */
+}
+.carousel-indicators .active {
+ 
+    background-color: #292929;
+}
