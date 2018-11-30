@@ -24,9 +24,10 @@
 		<div class="post-wrapper">
 			<!-- full post div -->
 			<div class="full-post-div ">
-				
-				<a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox ><img class='img-fluid single-post-img' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block"></a>
-				<div class="post-body-div">
+				<center>
+				<a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox ><img class='img-fluid single-post-img dimconstraints' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block"></a>
+				</center>
+                <div class="post-body-div">
 					<?php echo html_entity_decode($post['body']); ?>
 				</div>
 			

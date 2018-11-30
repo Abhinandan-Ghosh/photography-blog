@@ -162,3 +162,8 @@ footer
 .abouttitle {
     font-size: 60px;
 }
+
+.dimconstraints {
+    max-width: 700px!important;
+    max-height: 550px!important;
+}
