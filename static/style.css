@@ -104,6 +104,9 @@ footer
 .fu{
     margin-bottom: 20px;
 }
+.foot{
+	color: white!important;	
+}
 
 .topmargin {
     margin-top: 10px;
@@ -146,4 +149,16 @@ footer
 .carousel-indicators .active {
  
     background-color: #292929;
+}
+.footerlinks {
+    font-size: 20px;;
+    padding-right: 25px;
+    color: white;
+}
+.pagelinks {
+    padding: 10px;
+}
+
+.abouttitle {
+    font-size: 60px;
 }

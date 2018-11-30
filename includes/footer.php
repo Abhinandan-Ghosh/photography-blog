@@ -1,99 +1,49 @@
-
-
-
-
 <!-- Footer -->
 <footer class="page-footer font-small  text-light pt-4">
-
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
-
       <!-- Grid row -->
-      <div class="row">
-
+<!--      <div class="row">-->
         <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
+<!--        <div class="col-md-12 mt-md-0 mt-3">-->
           <!-- Content -->
-          <h5 class="text-uppercase">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content.</p>
-
+        <center>
+            <a href="#" class="fa foot fa-chevron-up"></a><br>
+            <h3 class="text-uppercase">Back to Top</h3>
+        </center>
+<!--        </div>-->
+<!--        <hr class="clearfix w-100 d-md-none pb-3">-->
+        <div class="pagelinks">
+            <center>
+                    <a href="index.php" class="footerlinks" > Home</a>
+                    <a href="index.php#subscribe" class="footerlinks"> Subscribe</a>
+                    <a href="index.php#recentarticles" class="footerlinks">Articles</a>    
+                    <a href="about.php" class="footerlinks"> About</a>
+            </center>    
         </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-      </div>
+        <div class="col-md-12 mb-md-0 mb-3">
+            <div class="social-links">
+                <center>
+                    <a href="#" class="fa foot fa-facebook" target="_blank"></a>
+                    <a href="#" class="fa foot fa-twitter" target="_blank"></a>
+                    <a href="#" class="fa foot fa-instagram" target="_blank"></a>
+                    <a href="#" class="fa foot fa-youtube" target="_blank"></a>
+                </center>    
+            </div> 
+        </div>
+          <!-- Grid column 
+<!--      </div>-->
       <!-- Grid row -->
-
     </div>
-    <!-- Footer Links -->
-
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="#"> Picture Perfect</a>
+        <a href="" style="color:white;"> Picture Perfect</a>
     </div>
     <!-- Copyright -->
-
-  </footer>
-
-  <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.js"></script>
-
- 
-
-  </body>
-  </html>
+</footer>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.js"></script>

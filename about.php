@@ -18,8 +18,8 @@
 
 <div class="intro container-fluid">
 <center>
-<h1 class="my-4">
-    About Us
+<h1 class="abouttitle">
+    Hello There!
     <br>
     <small>It's Nice to Meet You!</small>
 </h1>

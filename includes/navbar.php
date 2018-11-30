@@ -8,11 +8,6 @@
       <a class="nav-item nav-link <?php if($page == 'home') echo 'active'; ?>" href="index.php">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="" data-toggle="modal" data-target="#modalContactForm">Contact</a>
       <a class="nav-item nav-link <?php if($page == 'about') echo 'active'; ?>" href="about.php">About</a>
-      
-      <!-- <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn my-2 my-sm-0" type="submit">Search</button>
-  </form> -->
     </div>
   </div>
 </nav>

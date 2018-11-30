@@ -20,16 +20,13 @@
         <p class="lead">A Glance From Our Perspective</p>
     </div>
 </div>
-<div class="jumbotron jumbotron-fluid jumbo2 text-center ">
+<div class="jumbotron jumbotron-fluid jumbo2 text-center" id="subscribe">
     <h1 class="display-4">Want to stay updated?</h1>
-    <p class="lead">Subscibe to our newsletter and get emails</p>
-   <!-- <a href="#modalSubscriptionForm">
-        <button type="submit" class="btn btn-light">Subscribe</button>
-    </a> -->
+    <p class="lead" >Subscibe to our newsletter and get emails</p>
     <a href="subscribe.php" class="btn btn-light" data-toggle="modal" data-target="#modalSubscriptionForm">Subscribe</a>
 </div>
-<div class="container-fluid ">
-    <h2>Recent Articles</h2>
+<div class="container-fluid" id="recentarticles">
+    <center><h2>Recent Articles</h2></center>
     <br>
     <hr>
     <div class="card-columns post-body">
@@ -87,7 +84,7 @@
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-dark">Send <!-- <i class="fa fa-paper-plane-o ml-1"></i> --></button>
+        <button class="btn btn-dark">Send</button>
       </div>
     </div>
   </div>
