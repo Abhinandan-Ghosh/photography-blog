@@ -100,7 +100,16 @@ footer
 	padding: 15px;
 	font-size: 30px !important;
 	text-decoration: none;
-	margin-bottom: 20px;
+}
+.fu{
+    margin-bottom: 20px;
+}
+.foot{
+	color: white!important;	
+}
+
+.topmargin {
+    margin-top: 10px;
 }
 
 .fa:hover{
@@ -140,4 +149,21 @@ footer
 .carousel-indicators .active {
  
     background-color: #292929;
+}
+.footerlinks {
+    font-size: 20px;;
+    padding-right: 25px;
+    color: white;
+}
+.pagelinks {
+    padding: 10px;
+}
+
+.abouttitle {
+    font-size: 60px;
+}
+
+.dimconstraints {
+    max-width: 700px!important;
+    max-height: 550px!important;
 }

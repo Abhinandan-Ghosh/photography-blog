@@ -10,22 +10,24 @@
 ?>
 <?php include('includes/head_section.php'); ?>
 <title> <?php echo $post['title'] ?> | THE BLOOOOG</title>
-</head>
+
 <body>
 	<!-- Navbar -->
 		<?php include( ROOT_PATH . '/includes/navbar.php'); ?>
 	<!-- // Navbar -->
-<div class="container">
-	
-	
-	<div class="content d-flex justify-content-start" >
+<div class="container " >
+    <h1 class="post-title display-4 font-weight-bold col-md-12"><?php echo $post['title']; ?></h1>
+	<!--<div class="content d-flex justify-content-start" >-->
+    <div class="row">
+    <div class="content d-flex justify-content-start col-md-8" >
 		<!-- Page wrapper -->
 		<div class="post-wrapper">
 			<!-- full post div -->
-			<div class="full-post-div">
-				<h1 class="post-title display-4 font-weight-bold"><?php echo $post['title']; ?></h1>
-				<a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox ><img class='img-fluid single-post-img' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block"></a>
-				<div class="post-body-div">
+			<div class="full-post-div ">
+				<center>
+				<a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox ><img class='img-fluid single-post-img dimconstraints' src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" class="mx-auto d-block"></a>
+				</center>
+                <div class="post-body-div">
 					<?php echo html_entity_decode($post['body']); ?>
 				</div>
 			
@@ -38,8 +40,17 @@
 		<!-- // Page wrapper -->
 
 		<!-- post sidebar -->
-		<div class="post-sidebar d-flex justify-content-end">
-			<div class="card topic-side-bar">
+		
+		<!-- // post sidebar -->
+	</div>
+
+<!--<div class="post-sidebar d-flex  col-md-4">-->
+    <div class= "content d-flex justify-content-center col-md-4">
+			<div class="card" style="
+    width: 350px;
+
+    height: fit-content;
+">
 				<div class="card-header text-light bg-dark">
 					<h2>Topics</h2>
 				</div>
@@ -53,9 +64,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- // post sidebar -->
-	</div>
-</div>
 <!-- // content -->
-
+    </div>
+    </div>
 <?php include( ROOT_PATH . '/includes/footer.php'); ?>
