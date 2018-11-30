@@ -43,24 +43,44 @@
                     <p class="mbr-fonts-style display-7">Gotta insert some text here.Gotta insert some text here.Gotta insert some text here.</p>
                 </div>
                 <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">
-                    Thy Name
+                    Abhinandan Ghosh
                 </div>
                 <div class="user_desk mbr-light mbr-fonts-style display-7">
                      Photographer
                 </div>
+                <div class="social-links">
+    <center>
+        <a href="https://www.facebook.com/abhinandan.ghost" class="fa fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fa-google" target="_blank"></a>
+        <a href="#" class="fa fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fa-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/abhinandan_ghost/" class="fa fa-instagram" target="_blank"></a>
+    </center>    
+</div> 
             </div>
             <div class="carousel-item">
             <!-- <img class="d-block w-100" src="static/mainphoto.JPG" alt="Second slide"> Original line of code -->
                 <img class="img-fluid rounded-circle" src="static/calboibig.jpg" alt="Second slide">
                 <div class="user_text pb-3">
-                    <p class="mbr-fonts-style display-7">Gotta insert some text here too.Gotta insert some text here too.Gotta insert some text here too.</p>
+                    <p class="mbr-fonts-style display-7">The world is but a canvas to our imagination - Henry David Thoreau</p>
                 </div>
                 <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">
-                    Thy Name
+                    Calvin Clint Dsouza
                 </div>
                 <div class="user_desk mbr-light mbr-fonts-style display-7">
-                    Writer
+                    Photographer
                 </div>
+                <div class="social-links">
+    <center>
+        <a href="https://www.facebook.com/calvin.clint.102" class="fa fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fa-google" target="_blank"></a>
+        <a href="#" class="fa fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fa-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/cal_clint/" class="fa fa-instagram" target="_blank"></a>
+    </center>    
+</div> 
             </div>
             <div class="carousel-item">
                 <img class="img-fluid rounded-circle" src="static/neoboibig.jpg" alt="Third slide">
@@ -73,6 +93,16 @@
                 <div class="user_desk mbr-light mbr-fonts-style display-7">
                     Editor
                 </div>
+                <div class="social-links">
+    <center>
+        <a href="#" class="fa fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fa-google" target="_blank"></a>
+        <a href="#" class="fa fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fa-youtube" target="_blank"></a>
+        <a href="#" class="fa fa-instagram" target="_blank"></a>
+    </center>    
+</div> 
             </div>
         </div>
     </div>
@@ -85,15 +115,6 @@
         <span class="sr-only">Next</span>
     </a>
 </div>      
-<div class="social-links">
-    <center>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-google"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </center>    
-</div>     
+    
 <!-- footer -->      
 <?php include( ROOT_PATH . '/includes/footer.php') ?>
