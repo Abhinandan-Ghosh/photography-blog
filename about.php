@@ -50,12 +50,12 @@
                 </div>
                 <div class="social-links">
     <center>
-        <a href="https://www.facebook.com/abhinandan.ghost" class="fa fa-facebook" target="_blank"></a>
-        <a href="#" class="fa fa-twitter" target="_blank"></a>
-        <a href="#" class="fa fa-google" target="_blank"></a>
-        <a href="#" class="fa fa-linkedin" target="_blank"></a>
-        <a href="#" class="fa fa-youtube" target="_blank"></a>
-        <a href="https://www.instagram.com/abhinandan_ghost/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/abhinandan.ghost" class="fa fu fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fu fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fu fa-google" target="_blank"></a>
+        <a href="#" class="fa fu fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fu fa-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/abhinandan_ghost/" class="fa fu fa-instagram" target="_blank"></a>
     </center>    
 </div> 
             </div>
@@ -73,12 +73,12 @@
                 </div>
                 <div class="social-links">
     <center>
-        <a href="https://www.facebook.com/calvin.clint.102" class="fa fa-facebook" target="_blank"></a>
-        <a href="#" class="fa fa-twitter" target="_blank"></a>
-        <a href="#" class="fa fa-google" target="_blank"></a>
-        <a href="#" class="fa fa-linkedin" target="_blank"></a>
-        <a href="#" class="fa fa-youtube" target="_blank"></a>
-        <a href="https://www.instagram.com/cal_clint/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://www.facebook.com/calvin.clint.102" class="fa fu fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fu fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fu fa-google" target="_blank"></a>
+        <a href="#" class="fa fu fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fu fa-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/cal_clint/" class="fa fu fa-instagram" target="_blank"></a>
     </center>    
 </div> 
             </div>
@@ -95,12 +95,12 @@
                 </div>
                 <div class="social-links">
     <center>
-        <a href="#" class="fa fa-facebook" target="_blank"></a>
-        <a href="#" class="fa fa-twitter" target="_blank"></a>
-        <a href="#" class="fa fa-google" target="_blank"></a>
-        <a href="#" class="fa fa-linkedin" target="_blank"></a>
-        <a href="#" class="fa fa-youtube" target="_blank"></a>
-        <a href="#" class="fa fa-instagram" target="_blank"></a>
+        <a href="#" class="fa fu fa-facebook" target="_blank"></a>
+        <a href="#" class="fa fu fa-twitter" target="_blank"></a>
+        <a href="#" class="fa fu fa-google" target="_blank"></a>
+        <a href="#" class="fa fu fa-linkedin" target="_blank"></a>
+        <a href="#" class="fa fu fa-youtube" target="_blank"></a>
+        <a href="#" class="fa fu fa-instagram" target="_blank"></a>
     </center>    
 </div> 
             </div>

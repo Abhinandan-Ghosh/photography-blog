@@ -21,7 +21,7 @@
 <!-- Contact Modal -->
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog " role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h4 class="modal-title w-100 font-weight-bold pad-left " style="padding-left: 32px;">Write to us</h4>
@@ -29,29 +29,29 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form ">
+      <div class="modal-body">
+        <div class="row">
+        <div class="md-form topmargin col-md-6">
           <i class="fa fa-user prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form34">Your name</label>
           <input type="text" id="form34" class="form-control validate">
-          
         </div>
 
-        <div class="md-form ">
+        <div class="md-form topmargin col-md-6">
           <i class="fa fa-envelope prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form29">Your email</label>
           <input type="email" id="form29" class="form-control validate">
-          
         </div>
-
-        <div class="md-form ">
+            </div>
+            
+        <div class="md-form topmargin ">
           <i class="fa fa-tag prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form32">Subject</label>
           <input type="text" id="form32" class="form-control validate">
           
         </div>
 
-        <div class="md-form">
+        <div class="md-form topmargin">
           <i class="fa fa-pencil prefix grey-text"></i>
           <label data-error="wrong" data-success="right" for="form8">Your message</label>
           <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
@@ -60,7 +60,7 @@
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-dark">Send <!-- <i class="fa fa-paper-plane-o ml-1"></i> --></button>
+        <button class="btn btn-dark">Send</button>
       </div>
     </div>
   </div>

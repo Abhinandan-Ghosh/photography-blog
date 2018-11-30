@@ -100,7 +100,13 @@ footer
 	padding: 15px;
 	font-size: 30px !important;
 	text-decoration: none;
-	margin-bottom: 20px;
+}
+.fu{
+    margin-bottom: 20px;
+}
+
+.topmargin {
+    margin-top: 10px;
 }
 
 .fa:hover{
