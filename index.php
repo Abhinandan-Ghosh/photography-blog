@@ -87,7 +87,7 @@
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-dark">Send <!-- <i class="fa fa-paper-plane-o ml-1"> --></i></button>
+        <button class="btn btn-dark">Send <!-- <i class="fa fa-paper-plane-o ml-1"></i> --></button>
       </div>
     </div>
   </div>
