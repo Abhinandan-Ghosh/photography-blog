@@ -1,8 +1,10 @@
 <?php  include('config.php'); ?>
 <?php  include('includes/functions.php'); ?>
 <?php 
+	$page = "single-post";
 	if (isset($_GET['post-slug'])) {
 		$post = getPost($_GET['post-slug']);
+		$title = $post['title'];
 	}
 	$topics = getAllTopics();
 ?>
