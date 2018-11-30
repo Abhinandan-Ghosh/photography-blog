@@ -20,10 +20,10 @@
 	
 }
 
-.btn{
+/*.btn{
 	    padding: 12px;
     width: 150px;
-}
+}*/
 
 .search{
 	float: right;
@@ -69,6 +69,8 @@ footer
 
 .content{
 	margin-top: 32px;
+	margin-bottom: 32px;
+
 }
 
 

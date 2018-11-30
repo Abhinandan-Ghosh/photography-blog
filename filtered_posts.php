@@ -1,12 +1,23 @@
-<?php include('config.php'); ?>
-<?php include('includes/functions.php'); ?>
-<?php include('includes/head_section.php'); ?>
+<?php 
+    require_once('config.php');
+    require_once( ROOT_PATH . '/includes/functions.php');
+//Retrieve all posts from database 
+    $posts = getPublishedPosts();
+
+    $page = 'filtered';
+      $title = 'Topic';
+
+    require_once( ROOT_PATH . '/includes/head_section.php');
+?>
 <?php 
 	// Get posts under a particular topic
+$page = "filtered post";
 	if (isset($_GET['topic'])) {
 		$topic_id = $_GET['topic'];
 		$posts = getPublishedPostsByTopic($topic_id);
+   
 	}
+
 ?>
 	<title>LifeBlog | Home </title>
 </head>

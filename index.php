@@ -73,19 +73,21 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <i class="fa fa-user prefix grey-text"></i>
-          <input type="text" id="form3" class="form-control validate">
           <label data-error="wrong" data-success="right" for="form3">Your name</label>
+          <input type="text" id="form3" class="form-control validate">
+          
         </div>
 
         <div class="md-form mb-4">
           <i class="fa fa-envelope prefix grey-text"></i>
-          <input type="email" id="form2" class="form-control validate">
           <label data-error="wrong" data-success="right" for="form2">Your email</label>
+          <input type="email" id="form2" class="form-control validate">
+          
         </div>
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-dark">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        <button class="btn btn-dark">Send <!-- <i class="fa fa-paper-plane-o ml-1"> --></i></button>
       </div>
     </div>
   </div>
