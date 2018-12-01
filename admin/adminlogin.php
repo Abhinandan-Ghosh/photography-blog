@@ -89,7 +89,7 @@ require_once('../config.php');?>
     .login-form input[type="checkbox"] {
         margin-top: 2px;
     }
-    .login-form .forgot-link {
+    /*.login-form .forgot-link {
         float: right;
     }
     .login-form .small {
@@ -97,7 +97,7 @@ require_once('../config.php');?>
     }
     .login-form a {
         color: #4aba70;
-    }
+    }*/
 </style>
 </head>
 <body>

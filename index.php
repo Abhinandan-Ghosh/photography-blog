@@ -15,6 +15,7 @@
 <!-- navbar -->
 <?php include( ROOT_PATH . '/includes/navbar.php') ?>
 <div class="jumbotron jumbotron-fluid jumbo1">
+  
     <div class="container">
         <h1 class="display-4 ">Picture Perfect</h1>
         <p class="lead">A Glance From Our Perspective</p>
@@ -89,4 +90,3 @@
     </div>
   </div>
 </div>
-
