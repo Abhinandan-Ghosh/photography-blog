@@ -135,7 +135,7 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: #232323;
     color: #fff;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
@@ -148,17 +148,17 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #000000;
 }
 
-#sidebar ul.components {
+/* #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
-}
+    
+} */
 
 #sidebar ul p {
     color: #fff;
-    padding: 10px;
+    padding: 20px;
 }
 
 #sidebar ul li a {
@@ -167,15 +167,19 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: white;
+    background: #5e5e5e;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+/* #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
-}
+} */
 
+.bottom-border {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -207,17 +211,6 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
-a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-}
-
-
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -232,8 +225,9 @@ a.article, a.article:hover {
 #sidebarCollapse {
     width: 40px;
     height: 40px;
-    background: #f5f5f5;
+    background: #343a40;
     cursor: pointer;
+    border-radius: 10%;
 }
 
 #sidebarCollapse span {
@@ -241,7 +235,7 @@ a.article, a.article:hover {
     height: 2px;
     margin: 0 auto;
     display: block;
-    background: #555;
+    background: white;
     transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
     transition-delay: 0.2s;
 }
@@ -261,6 +255,7 @@ a.article, a.article:hover {
     transform: none;
     opacity: 1;
     margin: 5px auto;
+    background: white;
 }
 
 
