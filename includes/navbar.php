@@ -14,10 +14,12 @@
 
 
 <!-- Contact Modal -->
+
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog " role="document">
-    <div class="modal-content">
+   <form method="post" action="">
+            <div class="modal-content">
       <div class="modal-header text-center">
         <h4 class="modal-title w-100 font-weight-bold pad-left " style="padding-left: 32px;">Write to us</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -58,6 +60,7 @@
         <button class="btn btn-dark">Send</button>
       </div>
     </div>
+       </form>
   </div>
 </div>
 
