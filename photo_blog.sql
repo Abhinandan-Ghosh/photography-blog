@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 06, 2018 at 01:52 PM
+-- Generation Time: Dec 01, 2018 at 04:31 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -44,6 +44,22 @@ CREATE TABLE IF NOT EXISTS `admin` (
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 (1, 'Abhinandan', 'password'),
 (2, 'Calvin', 'password');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+DROP TABLE IF EXISTS `messages`;
+CREATE TABLE IF NOT EXISTS `messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `subject` varchar(255) NOT NULL,
+  `message` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 

@@ -1,6 +1,6 @@
 <?php
 
-    include('config.php');  ;
+    include('../config.php');  ;
     error_reporting(0);
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -15,5 +15,5 @@
         echo 'Inserted';
     }
 
-header('location: ../index.php');
+    header('location: ../index.php');
 ?>
