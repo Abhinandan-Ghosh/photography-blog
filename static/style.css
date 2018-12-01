@@ -69,6 +69,15 @@ footer
 	width: 30%;
 }
 
+.posts a {
+	text-decoration: none;
+	color: #232323;
+}
+
+.topic{
+	float: right;
+}
+
 .content{
 	margin-top: 32px;
 	margin-bottom: 32px;
@@ -112,6 +121,7 @@ footer
 
 .topmargin {
     margin-top: 10px;
+    
 }
 
 .fa:hover{
@@ -157,6 +167,12 @@ footer
     padding-right: 25px;
     color: white;
 }
+
+.pagelinks a:hover{
+	text-decoration: none;
+	color : white;
+}
+
 .pagelinks {
     padding: 10px;
 }

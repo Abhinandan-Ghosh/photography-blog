@@ -6,7 +6,7 @@
     $posts = getPublishedPosts();
 
     $page = 'home';
-      $title = 'Blog - Home';
+      $title = 'Picture Perfect - Home';
 
     require_once( ROOT_PATH . '/includes/head_section.php');
 ?>
