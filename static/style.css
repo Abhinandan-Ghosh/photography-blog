@@ -1,6 +1,4 @@
-body{
-	overflow-x: hidden;
-}
+
 
 .jumbo1 {
     margin-bottom: 0px;
@@ -12,14 +10,8 @@ body{
     overflow: hidden;
     padding-top: 15%;
     padding-bottom: 15%;
-	height: 100vh;
-	
+    height: 100vh;
 }
-
-.card-columns{
-	padding:0% 10% 0%;
-}
-
 
 .jumbo2 {
 	background-color: #232323;
@@ -102,11 +94,6 @@ footer
 .full-post-div{
 	margin-right: 20px;
 	text-align: justify;	
-	padding: 5%;
-}
-
-.full-post-div img{
-	margin-bottom: 20px;
 }
 
 .topic-side-bar{
@@ -194,9 +181,9 @@ footer
     font-size: 60px;
 }
 
-/* .dimconstraints {
+.dimconstraints {
     max-width: 700px!important;
     max-height: 550px!important;
-} */
+}
 
 
