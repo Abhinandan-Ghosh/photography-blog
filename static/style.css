@@ -94,6 +94,15 @@ footer
 .full-post-div{
 	margin-right: 20px;
 	text-align: justify;	
+	width:85%;
+}
+
+.post-body-div{
+	margin-top: 15px;
+}
+
+.card-columns{
+	padding:0% 5% 0%;
 }
 
 .topic-side-bar{
@@ -182,9 +191,9 @@ footer
     font-size: 60px;
 }
 
-.dimconstraints {
+/* .dimconstraints {
     max-width: 700px!important;
     max-height: 550px!important;
-}
+} */
 
 

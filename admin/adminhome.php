@@ -83,8 +83,8 @@ else{
             </nav>
 
            
-
-            <table class="table table-striped table-dark table-responsive">
+            <div class = "table-responsive">
+            <table class="table table-striped table-dark">
                 <thead class="thead-dark">
                 <tr>
                 <th scope="col">#</th>
@@ -94,7 +94,7 @@ else{
                 <th scope="col">Message</th>
                 </tr>
                 </thead>
-                <tbody>
+                
                 
                 <?php foreach ($messages as $message): ?>
                     
@@ -106,8 +106,9 @@ else{
                 <td ><?php echo $message['message'];?></td>
                 </tr>
 <?php endforeach; ?>
-                </tbody>
+               
             </table>
+            </div>
         </div>
     </div>
 

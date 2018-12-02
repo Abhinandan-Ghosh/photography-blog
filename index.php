@@ -17,19 +17,19 @@
 <div class="jumbotron jumbotron-fluid jumbo1">
   
     <div class="container">
-        <h1 class="display-4 ">Picture Perfect</h1>
-        <p class="lead">A Glance From Our Perspective</p>
+        <h1 class="display-3 animated fadeInLeft">Picture Perfect</h1>
+        <p class="lead animated fadeInRight delay-1s">A Glance From Our Perspective</p>
     </div>
 </div>
 <div class="jumbotron jumbotron-fluid jumbo2 text-center" id="subscribe">
-    <h1 class="display-4">Want to stay updated?</h1>
-    <p class="lead" >Subscibe to our newsletter and get emails</p>
+    <h1 class="wow flipInX display-4">Want to stay updated?</h1>
+    <p class="lead wow flipInX" >Subscibe to our newsletter and get emails</p>
     <a href="subscribe.php" class="btn btn-light" data-toggle="modal" data-target="#modalSubscriptionForm">Subscribe</a>
 </div>
 <div class="container-fluid" id="recentarticles">
-    <center><h2>Recent Articles</h2></center>
+    <!-- <center><h1>Recent Posts</h1></center>
     <br>
-    <hr>
+    <hr> -->
     <div class="card-columns post-body">
         <?php foreach($posts as $post): ?>
         <div class="card posts m-3">
