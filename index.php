@@ -17,22 +17,22 @@
 <div class="jumbotron jumbotron-fluid jumbo1">
   
     <div class="container">
-        <h1 class="display-4 ">Picture Perfect</h1>
-        <p class="lead">A Glance From Our Perspective</p>
+        <h1 class="display-3  animated slow bounceInRight ">Picture Perfect</h1>
+        <p class="lead animated bounceInLeft delay-1s ">A Glance From Our Perspective</p>
     </div>
 </div>
-<div class="jumbotron jumbotron-fluid jumbo2 text-center" id="subscribe">
-    <h1 class="display-4">Want to stay updated?</h1>
-    <p class="lead" >Subscibe to our newsletter and get emails</p>
-    <a href="subscribe.php" class="btn btn-light" data-toggle="modal" data-target="#modalSubscriptionForm">Subscribe</a>
+<div class="jumbotron jumbotron-fluid jumbo2   text-center" id="subscribe">
+    <h1 class="display-4 wow flipInX ">Want to stay updated?</h1>
+    <p class="lead wow flipInY" >Subscibe to our newsletter and get emails</p>
+    <a href="subscribe.php" class="btn btn-light  " data-toggle="modal" data-target="#modalSubscriptionForm">Subscribe</a>
 </div>
 <div class="container-fluid" id="recentarticles">
-    <center><h2>Recent Articles</h2></center>
+    <center><h1 class="display-4">Recent Articles</h1></center>
     <br>
     <hr>
-    <div class="card-columns post-body">
+    <div class="card-columns  post-body">
         <?php foreach($posts as $post): ?>
-        <div class="card posts m-3">
+        <div class="card   posts m-3">
             <a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox data-caption = "<?php echo $post['title'] ?>" ><img class="card-img-top" src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" alt="Card image cap"></a>
             <?php if (isset($post['topic']['name'])): ?>
             <a href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $post['topic']['id'] ?>" ><?php echo $post['topic']['name'] ?></a>
@@ -50,7 +50,66 @@
             </a>
         </div>
         <?php endforeach; ?>
-        
+        <div class="card   posts m-4    ">
+            <a href="http://localhost/photography-blog//static/bkup.jpg" data-fancybox="" data-caption="Sample Title"><img class="card-img-top" src="http://localhost/photography-blog//static/bkup.jpg" alt="Card image cap"></a>
+                        <a href="http://localhost/photography-blog/filtered_posts.php?topic=1">Inspiration</a>
+                        <a href="single_post.php?post-slug=sample-title">
+                <div class="card-body">
+                    <h3 class="card-title">Sample Title</h3>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            <span>November 5, 2018 </span>
+                            <span class="read_more float-right">Read more...</span>
+                        </small>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="card   posts m-3">
+            <a href="http://localhost/photography-blog//static/bkup.jpg" data-fancybox="" data-caption="Sample Title"><img class="card-img-top" src="http://localhost/photography-blog//static/bkup.jpg" alt="Card image cap"></a>
+                        <a href="http://localhost/photography-blog/filtered_posts.php?topic=1">Inspiration</a>
+                        <a href="single_post.php?post-slug=sample-title">
+                <div class="card-body">
+                    <h3 class="card-title">Sample Title</h3>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            <span>November 5, 2018 </span>
+                            <span class="read_more float-right">Read more...</span>
+                        </small>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="card   posts m-3">
+            <a href="http://localhost/photography-blog//static/bkup.jpg" data-fancybox="" data-caption="Sample Title"><img class="card-img-top" src="http://localhost/photography-blog//static/bkup.jpg" alt="Card image cap"></a>
+                        <a href="http://localhost/photography-blog/filtered_posts.php?topic=1">Inspiration</a>
+                        <a href="single_post.php?post-slug=sample-title">
+                <div class="card-body">
+                    <h3 class="card-title">Sample Title</h3>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            <span>November 5, 2018 </span>
+                            <span class="read_more float-right">Read more...</span>
+                        </small>
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="card   posts m-3">
+            <a href="http://localhost/photography-blog//static/bkup.jpg" data-fancybox="" data-caption="Sample Title"><img class="card-img-top" src="http://localhost/photography-blog//static/bkup.jpg" alt="Card image cap"></a>
+                        <a href="http://localhost/photography-blog/filtered_posts.php?topic=1">Inspiration</a>
+                        <a href="single_post.php?post-slug=sample-title">
+                <div class="card-body">
+                    <h3 class="card-title">Sample Title</h3>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            <span>November 5, 2018 </span>
+                            <span class="read_more float-right">Read more...</span>
+                        </small>
+                    </p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 <!-- footer -->
