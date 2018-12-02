@@ -28,9 +28,11 @@ $page = "filtered post";
 <!-- // Navbar -->
 <!-- content -->
 <div class="container-fluid content">
-	<h2 class="content-title">
-		Articles on <u><?php echo getTopicNameById($topic_id); ?></u>
-	</h2>
+  <center>
+    <h2 class="content-title">
+      Posts on <u><?php echo getTopicNameById($topic_id); ?></u>
+    </h2>
+  </center>
 	<hr>
 	<?php
 
