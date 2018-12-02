@@ -171,10 +171,11 @@ a, a:hover, a:focus {
     background: #5e5e5e;
 }
 
-/* #sidebar ul li.active > a, a[aria-expanded="true"] {
+
+ #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
-} */
+    background: #5e5e5e;
+} 
 
 .bottom-border {
     border-top: 1px solid #dbdbdb;

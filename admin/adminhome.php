@@ -50,6 +50,9 @@ else{
             <ul class="list-unstyled components">
                 <p class="bottom-border"><?php echo "Welcome ".$_SESSION['user_name'];?></p>
                 <li class="active">
+                        <a href="#messages">Messages</a>
+                    </li>
+                <li>
                     <a href="../index.php">Home</a>
                 </li>
                 <li>
@@ -84,7 +87,7 @@ else{
 
            
 
-            <table class="table table-striped table-dark table-responsive">
+            <table id="messages" class="table table-striped table-dark table-responsive">
                 <thead class="thead-dark">
                 <tr>
                 <th scope="col">#</th>
