@@ -50,6 +50,9 @@ else{
             <ul class="list-unstyled components">
                 <p class="bottom-border"><?php echo "Welcome ".$_SESSION['user_name'];?></p>
                 <li class="active">
+                        <a href="#messages">Messages</a>
+                    </li>
+                <li>
                     <a href="../index.php">Home</a>
                 </li>
                 <li>
