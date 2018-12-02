@@ -46,7 +46,7 @@ $bootstrapColWidth = 12 / $numOfCols;
           <a href="<?php echo BASE_URL . '/static/' . $post['image']; ?>" data-fancybox data-caption = "<?php echo $post['title'] ?>" ><img class="card-img-top" src="<?php echo BASE_URL . '/static/' . $post['image']; ?>" alt="Card image cap"></a>
 
           <?php if (isset($post['topic']['name'])): ?>
-          <a class = "topic" href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $post['topic']['id'] ?>"><?php echo $post['topic']['name'] ?></a>
+          <a class = "my-2" href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $post['topic']['id'] ?>"><?php echo $post['topic']['name'] ?></a>
           <?php endif; ?>
 
           <a href="single_post.php?post-slug=<?php echo $post['slug']; ?>">

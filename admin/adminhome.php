@@ -96,16 +96,20 @@ else{
                 </thead>
                 
                 
-                <?php foreach ($messages as $message): ?>
+                <?php 
+                $count = 1;
+                foreach ($messages as $message): ?>
                     
                 <tr>
-                <th scope="row">1</th>
+                <th scope="row"><?php echo $count;?></th>
                 <td><?php echo $message['name'];?></td>
                 <td><?php echo $message['email'];?></td>
                 <td><?php echo $message['subject'];?></td>
                 <td ><?php echo $message['message'];?></td>
                 </tr>
-<?php endforeach; ?>
+<?php
+$count++;
+ endforeach; ?>
                
             </table>
             </div>
