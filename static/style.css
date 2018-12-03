@@ -101,9 +101,7 @@ footer
 	margin-top: 15px;
 }
 
-.card-columns{
-	padding:0% 5% 0%;
-}
+
 
 .topic-side-bar{
 	height: fit-content;
@@ -196,4 +194,21 @@ footer
     max-height: 550px!important;
 } */
 
+.card{
+	display: inline-block;
+}
+
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
 
