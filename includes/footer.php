@@ -7,13 +7,13 @@
         <!-- Grid column -->
 <!--        <div class="col-md-12 mt-md-0 mt-3">-->
           <!-- Content -->
-        <center>
+        <center clss="wow fadeIn">
             <a href="#" class="fa foot fa-chevron-up"></a><br>
             <h3 class="text-uppercase">Back to Top</h3>
         </center>
 <!--        </div>-->
 <!--        <hr class="clearfix w-100 d-md-none pb-3">-->
-        <div class="pagelinks">
+        <div class="pagelinks wow fadeIn">
             <center>
                     <a href="index.php" class="footerlinks" > Home</a>
                     <a href="index.php#subscribe" class="footerlinks"> Subscribe</a>
@@ -22,7 +22,7 @@
             </center>    
         </div>
         <div class="col-md-12 mb-md-0 mb-3">
-            <div class="social-links">
+            <div class="social-link wow fadeIn">
                 <center>
                     <a href="#" class="fa foot fa-facebook" target="_blank"></a>
                     <a href="#" class="fa foot fa-twitter" target="_blank"></a>

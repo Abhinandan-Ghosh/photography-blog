@@ -18,7 +18,7 @@
 
 <div class="intro container-fluid">
 <center>
-<h1 class="abouttitle">
+<h1 class="abouttitle animated tada">
     Hello There!
     <br>
     <small>It's Nice to Meet You!</small>
@@ -35,7 +35,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="container text-center">
+    <div class="container text-center wow fadeInUp">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="img-fluid rounded-circle" src="static/abhiboibig.jpg" alt="First slide" >
