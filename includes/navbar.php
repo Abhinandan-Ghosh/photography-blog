@@ -18,7 +18,7 @@
 <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog " role="document">
-   <form method="post" action="includes/sendmessage.php">
+   <form method="post" >
             <div class="modal-content">
       <div class="modal-header text-center">
         <h4 class="modal-title w-100 font-weight-bold pad-left " style="padding-left: 32px;">Write to us</h4>

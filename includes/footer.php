@@ -55,6 +55,26 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script>
               new WOW().init();
-              </script>
+</script>
+<script type="text/javascript">
+ $(function () {
 
+        $('form').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'includes/sendmessage.php',
+            data: $('form').serialize(),
+            success: function () {
+              $('#modalContactForm').modal('hide');
+              alert('Your feedback was submitted');
+            }
+          });
+
+        });
+
+      });
+</script>
 
