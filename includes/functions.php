@@ -1,7 +1,7 @@
 <?php 
-/* * * * * * * * * * * * * * *
-* Returns all published posts
-* * * * * * * * * * * * * * */
+
+//Returns all published posts
+
 function getPublishedPosts() {
 	// use global $conn object in function
 	global $conn;
