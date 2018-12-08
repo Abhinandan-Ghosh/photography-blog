@@ -40,7 +40,7 @@
                 <div class="carousel-item active">
                     <img class="img-fluid rounded-circle" src="static/abhiboibig.jpg" alt="First slide">
                     <div class="user_text pb-3">
-                        <p class="mbr-fonts-style display-7">Gotta insert some text here.Gotta insert some text here.Gotta insert some text here.</p>
+                        <p class="mbr-fonts-style display-7">A Photo a day keeps my imagination awake.</p>
                     </div>
                     <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">
                         Abhinandan Ghosh
@@ -85,10 +85,10 @@
                 <div class="carousel-item">
                     <img class="img-fluid rounded-circle" src="static/neoboibig.jpg" alt="Third slide">
                     <div class="user_text pb-3">
-                        <p class="mbr-fonts-style display-7">And Gotta insert some text here too.And Gotta insert some text here too.And Gotta insert some text here too.</p>
+                        <p class="mbr-fonts-style display-7">Yes I am a cat. Now give me treats.</p>
                     </div>
                     <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">
-                        Thy Name
+                        Neo
                     </div>
                     <div class="user_desk mbr-light mbr-fonts-style display-7">
                         Editor
