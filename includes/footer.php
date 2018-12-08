@@ -54,7 +54,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 <script>
-              new WOW().init();
-              </script>
+    new WOW().init();
+</script>
 
 
